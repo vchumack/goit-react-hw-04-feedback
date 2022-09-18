@@ -8,17 +8,17 @@ export const TextStat = styled.p`
 export const TextStatGood = styled.p`
   display: flex;
   justify-content: center;
-  color: ${props => props.theme.colors.green};
+  color: ${props => props.theme.colors.goodFeedback};
 `;
 
 export const TextStatNeutral = styled.p`
   display: flex;
   justify-content: center;
-  color: ${props => props.theme.colors.grey};
+  color: ${props => props.theme.colors.neiFeedback};
 `;
 
 export const TextStatBad = styled.p`
   display: flex;
   justify-content: center;
-  color: ${props => props.theme.colors.red};
+  color: ${props => props.theme.colors.badFeedback};
 `;

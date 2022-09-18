@@ -49,11 +49,9 @@ export class App extends Component {
         mr="auto"
         mt={5}
         mb={5}
-        bg="primaryBg"
       >
         <Section title='Please leave feedback'>
           <FeedbackOptions
-            
           options={['good', 'neutral', 'bad']}
           onLeaveFeedback={this.onBtnClick}
           ></FeedbackOptions>

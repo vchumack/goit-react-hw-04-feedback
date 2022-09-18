@@ -13,6 +13,9 @@ export const theme = Object.freeze({
     purple: '#e2d6ed',
     turquoise: '#00bcd5',
     turquoiseBc: '#00bcd56c',
+    badFeedback: '#c82647',
+    neiFeedback: '#eb9532',
+    goodFeedback: 'green',
   },
 
   space: [0, 2, 4, 8, 16, 32, 64],
