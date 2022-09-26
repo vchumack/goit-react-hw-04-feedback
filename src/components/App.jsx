@@ -52,7 +52,7 @@ export function App() {
         mt={5}
         mb={5}
       >
-        <Section title='Please leave feedback!'>
+        <Section title='Please leave goood feedback ^^'>
           <FeedbackOptions
           options={['good', 'neutral', 'bad']}
           onLeaveFeedback={onBtnClick}
